@@ -1400,17 +1400,17 @@
 :root {
   --ogency-font: 'Plus Jakarta Sans', sans-serif;
   --heading-font: 'Plus Jakarta Sans', sans-serif;
-  --ogency-color: #5d5d5d;
+  --ogency-color: #7f735d;
   --ogency-color-rgb: 93, 93, 93;
-  --ogency-base: #f5900d;
+  --ogency-base: #c09567;
   --ogency-base-rgb: 245, 144, 13;
-  --ogency-black: #000000;
+  --ogency-black: #332e20;
   --ogency-black-rgb: 0, 0, 0;
-  --ogency-black2: #101010;
+  --ogency-black2: #423527;
   --ogency-black2-rgb: 16, 16, 16;
   --ogency-black3: #1a1a1a;
   --ogency-black3-rgb: 26, 26, 26;
-  --ogency-white: #ffffff;
+  --ogency-white: #ece8dd;
   --ogency-white-rgb: 255, 255, 255;
 }
 
@@ -4990,6 +4990,10 @@ h6 {
   position: relative;
   background-color: var(--ogency-black2);
   padding: 40px 50px 33px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -5076,6 +5080,13 @@ h6 {
 .service-one__item__btn:hover span {
   transform: rotate(-45deg);
 }
+
+.service-one .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 
 /*-- Service 2 --*/
 .service-two {
