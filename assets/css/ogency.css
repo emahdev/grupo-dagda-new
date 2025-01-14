@@ -1402,7 +1402,7 @@
   --heading-font: 'Plus Jakarta Sans', sans-serif;
   --ogency-color: #7f735d;
   --ogency-color-rgb: 93, 93, 93;
-  --ogency-base: #c09567;
+  --ogency-base: #D3B879;
   --ogency-base-rgb: 245, 144, 13;
   --ogency-black: #332e20;
   --ogency-black-rgb: 0, 0, 0;
@@ -6905,8 +6905,8 @@ h6 {
 .main-footer__about a {
   display: inline-block;
   color: var(--ogency-white);
-  /* font-size: 60px; */
-  font-size: 55px;
+  font-size: 40px; 
+  font-size: 2.5 rem;
   letter-spacing: -2.4px;
   line-height: 1;
   font-weight: 800;
